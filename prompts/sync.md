@@ -6,7 +6,7 @@ arguments:
   - name: "target"
     description: "File path, directory path, or content to re-read and sync"
   - name: "then"
-    description: "What to do after the sync"
+    description: "What to do after the sync. Default: nothing to do"
     default: ""
 examples:
   - "@sync file.py" # sync one file
