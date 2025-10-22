@@ -8,6 +8,10 @@ arguments:
   - name: "then"
     description: "What to do after the sync"
     default: ""
+examples:
+  - "@sync file.py" # sync one file
+  - "@sync file_1.py,file2.py" # sync multi files
+  - "@sync file_1.py 'add more comments'" # sync then edit
 ---
 
 Re-read and refresh your memory with the current content from: {target}
