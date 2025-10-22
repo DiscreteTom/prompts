@@ -5,8 +5,11 @@ description: "Re-read and refresh AI memory with current content from files or d
 arguments:
   - name: "target"
     description: "File path, directory path, or content to re-read and sync"
+  - name: "then"
+    description: "What to do after the sync"
+    default: ""
 ---
 
 Re-read and refresh your memory with the current content from: {target}
-
 The content has been modified since you last accessed it.
+{then}
