@@ -10,5 +10,4 @@ arguments:
 
 Explore and understand the code, system, or concept.
 When searching using shell, prefer ripgrep (rg).
-
-- scope: {scope}
+Exploration scope: {scope}
