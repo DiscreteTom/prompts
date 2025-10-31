@@ -12,7 +12,7 @@ examples:
 Bump current project to version: {version}
 Update related files, including:
 
-- CHANGELOG.md, create new h3 if needed, and update bottom link refs
+- CHANGELOG.md, create a new header for the version if needed, and update bottom link refs
 - Project info file, e.g. pyproject.toml, package.json
 
 You should also update lock files (e.g. uv.lock, package-lock.json)
