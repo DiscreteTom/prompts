@@ -17,4 +17,5 @@ Commit changes to git using conventional commit format.
 You should use `git status --porcelain` to see all changes including untracked files,
 use `git diff HEAD` to see tracked change contents,
 and read untracked file contents to understand the changes.
+MUST NOT create new git repositories. Abort if no git repository exists.
 Additional instructions that should be included in the commit message: {instructions}
