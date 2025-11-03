@@ -14,5 +14,7 @@ examples:
 ---
 
 Commit changes to git using conventional commit format.
-You should use `git diff HEAD` to see all the staged and unstaged changes.
+You should use `git status --porcelain` to see all changes including untracked files,
+use `git diff HEAD` to see tracked change contents,
+and read untracked file contents to understand the changes.
 Additional instructions that should be included in the commit message: {instructions}
