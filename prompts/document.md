@@ -8,6 +8,7 @@ arguments:
     default: ""
 examples:
   - "@document" # update all relevant documentation
+  - "@document CHANGELOG" # only update CHANGELOG
   - "@document 'API changes'" # focus on API changes
 ---
 
