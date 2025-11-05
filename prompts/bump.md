@@ -6,6 +6,7 @@ arguments:
   - name: "version"
     description: "Target version, e.g. v1.1.1"
 examples:
+  - "@bump patch" # bump to next patch version
   - "@bump v1.1.1" # bump current project to v1.1.1
 ---
 
