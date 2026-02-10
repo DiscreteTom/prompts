@@ -18,4 +18,5 @@ You should use `git status --porcelain` to see all changes including untracked f
 use `git diff HEAD` to see tracked change contents,
 and read untracked file contents to understand the changes.
 MUST NOT create new git repositories. Abort if no git repository exists.
+Never use `--no-verify` flag unless user explicitly asks for it.
 Additional instructions that should be included in the commit message: {instructions}

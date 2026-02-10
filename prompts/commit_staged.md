@@ -15,4 +15,5 @@ examples:
 
 Commit staged only changes to git using conventional commit format.
 You should use `git diff --cached` to see all the staged changes.
+Never use `--no-verify` flag unless user explicitly asks for it.
 Additional instructions that should be included in the commit message: {instructions}
