@@ -1,5 +1,5 @@
 ---
-name: "commit_staged"
+name: "commit-staged"
 title: "Commit Staged Only Changes"
 description: "Commit staged only changes to git using conventional commit format"
 arguments:
@@ -7,10 +7,10 @@ arguments:
     description: "Additional instructions about the commit message (e.g. feat, #12, Co-authored-by: name). Default: no additional instructions"
     default: ""
 examples:
-  - "@commit_staged" # commit with auto generated commit message
-  - "@commit_staged feat" # specify commit type
-  - "@commit_staged feat(web)" # specify commit type and scope
-  - "@commit_staged 'feat(web) #12'" # specify related resources
+  - "@commit-staged" # commit with auto generated commit message
+  - "@commit-staged feat" # specify commit type
+  - "@commit-staged feat(web)" # specify commit type and scope
+  - "@commit-staged 'feat(web) #12'" # specify related resources
 ---
 
 Commit staged only changes to git using conventional commit format.

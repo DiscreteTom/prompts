@@ -1,5 +1,5 @@
 ---
-name: "commit_all"
+name: "commit-all"
 title: "Commit All Changes"
 description: "Commit all changes to git using conventional commit format"
 arguments:
